@@ -1,53 +1,24 @@
-/* Reset some default styles */
-body, h1, p, ul, li {
-    margin: 0;
-    padding: 0;
-}
-
-/* Style the header */
-header {
-    background-color: #4285f4; /* Google-like blue color */
-    color: #ffffff; /* White text */
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-/* Style the logo */
-.logo img {
-    height: 40px;
-}
-
-/* Style the search bar */
-.search-bar {
-    display: flex;
-    align-items: center;
-}
-
-#search-input {
-    padding: 10px;
-    border: none;
-    border-radius: 4px;
-    font-size: 16px;
-}
-
-#search-button {
-    background-color: #0f9d58; /* Google-like green color */
-    color: #ffffff;
-    border: none;
-    border-radius: 4px;
-    padding: 10px 20px;
-    margin-left: 10px;
-    cursor: pointer;
-}
-
-#search-button:hover {
-    background-color: #0a7d44; /* Darker green on hover */
-}
-
-/* Center align main content */
-main {
+h1 {
     text-align: center;
-    padding: 20px;
+}
+
+#videoList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.videoBlock {
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+}
+
+.videoBlock img {
+    width: 100%;
+}
+
+.videoBlock p {
+    margin-top: 5px;
+    font-weight: bold;
 }
